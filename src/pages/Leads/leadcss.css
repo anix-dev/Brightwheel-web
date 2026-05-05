@@ -1,0 +1,97 @@
+
+.custom-select {
+    width: 100%;
+    border: none !important; /* Ensure no border */
+    background-color: #F7C344 !important; /* Background color of select box */
+    color: black !important; /* Text color of select box */
+    border-radius:5px !important; /* Rounded corners for the select box */
+}
+/* Container aligning everything to the right */
+.filter-row-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+/* Row layout */
+.filter-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Each filter item */
+.filter-item {
+  min-width: 150px;
+  max-width: 200px;
+}
+
+/* Special styling for date range */
+.filter-item.date-range {
+  min-width: 250px;
+}
+
+/* Responsive: Stack on smaller screens */
+@media (max-width: 768px) {
+  .filter-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .filter-item {
+    max-width: 100%;
+  }
+}
+
+.custom-select .ant-select-selector {
+    background-color: #F7C344 !important; /* Background color of select box */
+    color: black !important; /* Text color of select box */
+    border: none !important; /* No border */
+    border-radius: 20px !important; /* Rounded corners */
+}
+
+.custom-select .ant-select-dropdown {
+    background-color: #FFFFFF; /* Background color of dropdown menu */
+    border-radius: 20px; /* Optional: rounded corners for the dropdown */
+}
+
+.custom-select .ant-select-item-option {
+    color: #F7C344; /* Text color of options */
+}
+
+
+
+.custom-select1 {
+    width: 100%;
+    border: none !important; /* Ensure no border */
+    background-color: #6E757C !important; /* Background color of select box */
+    color: rgb(255, 255, 255) !important; /* Text color of select box */
+    border-radius:5px !important; /* Rounded corners for the select box */
+}
+
+.custom-select1 .ant-select-selector {
+    background-color: #6E757C !important; /* Background color of select box */
+    color: rgb(255, 255, 255) !important; /* Text color of select box */
+    border: none !important; /* No border */
+    border-radius: 20px !important; /* Rounded corners */
+}
+
+.custom-select1 .ant-select-dropdown {
+    background-color: #FFFFFF; /* Background color of dropdown menu */
+    border-radius: 20px; /* Optional: rounded corners for the dropdown */
+}
+
+.custom-select1 .ant-select-item-option {
+    color: #6E757C; /* Text color of options */
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+    
+    .ant-form-item {
+        flex: 100%; /* Make each item full width on small screens */
+    }
+}

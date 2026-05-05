@@ -1,0 +1,191 @@
+/* Teacher Attendance Styles */
+.teacher-attendance {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.header-title h3 {
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.breadcrumb {
+  display: flex;
+  gap: 0.5rem;
+}
+
+button.btn.btn-primary.ms-2 {
+    width: 53px;
+    /* text-align: center; */
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.teacher-profile-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    border: none;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  }
+  
+  .teacher-avatar-container {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .teacher-avatar {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .status-indicator {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  
+  .status-indicator.online {
+    background-color: #28a745;
+  }
+  
+  .teacher-name {
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .teacher-details {
+    padding: 10px 0;
+  }
+  
+  .teacher-meta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  
+  .meta-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .meta-label {
+    font-weight: 500;
+    color: #6c757d;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .meta-label i {
+    margin-right: 6px;
+    font-size: 0.9rem;
+    color: #5e72e4;
+  }
+  
+  .meta-value {
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  .teacher-actions {
+    margin-left: auto;
+    align-self: flex-start;
+  }
+  
+  @media (max-width: 768px) {
+    .teacher-meta {
+      grid-template-columns: 1fr;
+    }
+    
+    .teacher-avatar {
+      width: 80px;
+      height: 80px;
+    }
+    
+    .teacher-profile-card .d-flex {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .teacher-avatar-container {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+    
+    .teacher-actions {
+      margin-left: 0;
+      margin-top: 15px;
+    }
+  }
+
+  .teacher-profile-card {
+    border-radius: 8px;
+    border: none;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    height: 100%;
+  }
+  
+  .teacher-avatar-container {
+    position: relative;
+  }
+  
+  .teacher-avatar {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .status-indicator {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  
+  .status-indicator.online {
+    background-color: #28a745;
+  }
+  
+  .teacher-name {
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .teacher-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  @media (max-width: 768px) {
+    .teacher-avatar {
+      width: 40px;
+      height: 40px;
+    }
+    
+    .teacher-name {
+      font-size: 0.9rem;
+    }
+  }

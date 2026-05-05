@@ -1,0 +1,39 @@
+.fee-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.fee-amount {
+  font-size: 16px;
+}
+
+.fee-description {
+  font-size: 14px;
+  color: #666; /* Optional: subtle text color */
+}
+
+
+.fee-item:hover {
+background-color: #f8f9fa;
+transition: background-color 0.2s ease;
+}
+
+@media (max-width: 576px) {
+.fee-amount {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    text-align: right;
+}
+
+.d-flex.justify-content-between {
+    flex-wrap: wrap;
+}
+}
