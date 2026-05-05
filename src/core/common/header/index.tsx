@@ -113,7 +113,7 @@ const Header = () => {
               marginLeft: "30px",
             }}
           >
-            <ImageWithBasePath src="/assets/images/logo2.jpg" alt="Logo" />
+            <ImageWithBasePath src="/assets/images/logo3.png" alt="Logo" />
           </Link>
 
           <Link
@@ -126,7 +126,7 @@ const Header = () => {
               marginLeft: "30px",
             }}
           >
-            <ImageWithBasePath src="/assets/images/logo2.jpg" alt="Logo" />
+            <ImageWithBasePath src="/assets/images/logo3.png" alt="Logo" />
           </Link>
 
           <Link
@@ -139,7 +139,7 @@ const Header = () => {
               marginLeft: "30px",
             }}
           >
-            <ImageWithBasePath src={users.Image?users.Image :"/assets/images/logo2.jpg"} alt="Logo" />
+            <ImageWithBasePath src={users.Image?users.Image :"/assets/images/logo3.png"} alt="Logo" />
           </Link>
 
           <Link id="toggle_btn" to="#" onClick={handleToggleMiniSidebar}>

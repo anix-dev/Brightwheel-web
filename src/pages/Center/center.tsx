@@ -55,7 +55,7 @@ const Center = () => {
             id: center.CenterID,
             CREATED_BY:center.CREATED_BY,
             CenterChargeName: center.InchargeName,
-            imgSrc: center.Image ? center.Image: "/assets/images/logo.png" ,
+            imgSrc: center.Image ? center.Image: "assets/images/logo3.png" ,
           })
         );
         if(RoleId == "2"){

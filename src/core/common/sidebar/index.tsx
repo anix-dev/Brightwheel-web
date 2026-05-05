@@ -152,7 +152,7 @@ const Sidebar = () => {
                     className="d-flex align-items-center border bg-white rounded p-2 mb-4"
                   >
                     <ImageWithBasePath
-                      src="/assets/images/logo.png"
+                      src="assets/images/logo3.png"
                       className="avatar avatar-md img-fluid rounded"
                       alt="Profile"
                     />

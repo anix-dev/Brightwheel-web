@@ -50,7 +50,7 @@ const AllClasss = () => {
             createdAt:moment(center.CREATED_DATE).format('DD/MM/YYYY'),
             centerId:center.CenterID,
             active: center.ACTIVE,
-            imgSrc: "assets/images/logo2.jpg",
+            imgSrc: "assets/images/logo3.png",
           })
         );
 

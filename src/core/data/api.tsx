@@ -7,8 +7,8 @@ import axios, {
 // Create an Axios instance
 const api: AxiosInstance = axios.create({
   //  baseURL: "https://api.ikidzschools.com/",
-  baseURL:'http://13.235.172.170:3001',
-  //  baseURL: "http://localhost:4000",
+  // baseURL:'http://13.235.172.170:3001',
+   baseURL: "http://localhost:4000",
   withCredentials: true, // Include cookies in requests
 });
 

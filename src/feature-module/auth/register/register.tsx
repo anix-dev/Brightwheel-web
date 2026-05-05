@@ -540,7 +540,7 @@ const Register = () => {
                 </div>
                 <div className="authen-overlay-item  w-100 p-4">
                   <ImageWithBasePath
-                    src="/assets/images/logo2.jpg"
+                    src="/assets/images/logo3.png"
                     alt=""
                     className="rounded"
                   />

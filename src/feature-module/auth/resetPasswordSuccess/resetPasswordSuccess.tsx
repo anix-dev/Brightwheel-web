@@ -15,7 +15,7 @@ const ResetPasswordSuccess = () => {
               <div className="login-background position-relative d-lg-flex align-items-center justify-content-center d-lg-block d-none flex-wrap vh-100 overflowy-auto">
               <div className="authen-overlay-item w-100 p-4">
                 <ImageWithBasePath
-                  src="/assets/images/logo2.jpg"
+                  src="/assets/images/logo3.png"
                   alt=""
                   className="rounded"
                 />

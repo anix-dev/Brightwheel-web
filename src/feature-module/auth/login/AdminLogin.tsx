@@ -117,7 +117,7 @@ const AdminLogin = () => {
               <div></div>
               <div className="authen-overlay-item w-100 p-4">
                 <ImageWithBasePath
-                  src="/assets/images/logo2.jpg"
+                  src="/assets/images/logo3.png"
                   alt=""
                   className="rounded"
                 />
@@ -233,7 +233,7 @@ const AdminLogin = () => {
 
                   <div className="mt-3 text-center">
                     <p className="mb-0">
-                      Copyright © {getCurrentYear()} -IKIDZ
+                      Copyright © {getCurrentYear()} -Bright Wheels
                     </p>
                   </div>
               </div>
